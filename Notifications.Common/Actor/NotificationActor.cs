@@ -3,7 +3,7 @@ using Akka.Event;
 using Akka.DI.Core;
 using System;
 
-namespace AkkaPrototype.Actor
+namespace Notifications.Common.Actor
 {
     public class NotificationActor : ReceiveActor
     {

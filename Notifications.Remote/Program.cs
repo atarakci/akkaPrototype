@@ -1,4 +1,5 @@
 ﻿using Akka.Actor;
+using System;
 
 namespace Notifications.Remote
 {
@@ -8,6 +9,13 @@ namespace Notifications.Remote
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Remote actor system created");
+
+            NotificationsActorSystem = ActorSystem.Create("NotificationsActorSystem");
+
+            Console.ReadKey();
+
+            NotificationsActorSystem.Terminate();
         }
     }
 }

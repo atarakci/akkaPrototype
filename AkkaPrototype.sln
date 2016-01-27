@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaPrototype", "AkkaProtot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.Remote", "Notifications.Remote\Notifications.Remote.csproj", "{B711FFB0-B950-4845-B423-7BFD58C6CECF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.Common", "Notifications.Common\Notifications.Common.csproj", "{23461B6C-D6EB-4F54-A8DE-3D23AE1B9734}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B711FFB0-B950-4845-B423-7BFD58C6CECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B711FFB0-B950-4845-B423-7BFD58C6CECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B711FFB0-B950-4845-B423-7BFD58C6CECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23461B6C-D6EB-4F54-A8DE-3D23AE1B9734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23461B6C-D6EB-4F54-A8DE-3D23AE1B9734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23461B6C-D6EB-4F54-A8DE-3D23AE1B9734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23461B6C-D6EB-4F54-A8DE-3D23AE1B9734}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

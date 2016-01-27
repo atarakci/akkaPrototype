@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AkkaPrototype.Message
+namespace Notifications.Common.Message
 {   
     public class NotificationMessage
     {

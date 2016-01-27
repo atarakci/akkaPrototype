@@ -1,11 +1,11 @@
 ﻿using Akka.Actor;
 using Akka.Event;
-using AkkaPrototype.Common;
-using AkkaPrototype.Message;
+using Notifications.Common.Common;
+using Notifications.Common.Message;
 using System;
 using System.IO;
 
-namespace AkkaPrototype.Actor
+namespace Notifications.Common.Actor
 {
     public class PushNotificationActor : ReceiveActor
     {

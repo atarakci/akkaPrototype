@@ -1,11 +1,11 @@
 ﻿using Akka.Actor;
-using AkkaPrototype.Actor;
-using AkkaPrototype.Message;
 using Akka.DI.AutoFac;
 using Akka.DI.Core;
 using Autofac;
-using AkkaPrototype.Common;
 using System;
+using Notifications.Common.Actor;
+using Notifications.Common.Message;
+using Notifications.Common.Common;
 
 namespace AkkaPrototype
 {
@@ -31,7 +31,7 @@ namespace AkkaPrototype
             Console.ReadKey();
             Console.WriteLine("Sending notification");
             //pushNotificationActorRef.Tell(new NotificationMessage("akin@armut.com", "New Job"));
-            NotificationsActorSystem.ActorSelection("/user/NotificationActor/PushNotificationActor")
+            NotificationsActorSystem.ActorSelection("akka.tcp://NotificationsActorSystem@127.0.0.1:8091/user/NotificationActor/PushNotificationActor")
                 .Tell(new NotificationMessage("akin@armut.com", "New Job"));
             Console.ReadKey();
 
