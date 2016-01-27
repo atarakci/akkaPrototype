@@ -23,3 +23,9 @@
 2016-01-26 23:51:48.6076|INFO|AkkaPrototype.Actor.PushNotificationActor|Pushnotification Actor pre start called
 2016-01-26 23:52:05.9275|INFO|AkkaPrototype.Actor.PushNotificationActor|Notification has sent to -> akin@armut.com
 2016-01-26 23:52:12.7225|DEBUG|Akka.Actor.Internal.ActorSystemImpl|System shutdown initiated
+2016-01-27 13:00:06.9987|DEBUG|Akka.Event.EventStream|Logger log1-NLogLogger [NLogLogger] started
+2016-01-27 13:00:07.0077|DEBUG|Akka.Event.EventStream|StandardOutLogger being removed
+2016-01-27 13:00:07.0077|DEBUG|Akka.Event.EventStream|Default Loggers started
+2016-01-27 13:00:07.0077|INFO|AkkaPrototype.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-01-27 13:00:31.4449|DEBUG|Akka.Actor.Internal.ActorSystemImpl|System shutdown initiated
+2016-01-27 13:00:37.9355|INFO|AkkaPrototype.Actor.PushNotificationActor|Notification has sent to -> akin@armut.com
