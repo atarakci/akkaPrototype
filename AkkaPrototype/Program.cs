@@ -31,7 +31,7 @@ namespace AkkaPrototype
             Console.ReadKey();
             Console.WriteLine("Sending notification");
             //pushNotificationActorRef.Tell(new NotificationMessage("akin@armut.com", "New Job"));
-            NotificationsActorSystem.ActorSelection("akka.tcp://NotificationsActorSystem@127.0.0.1:8091/user/NotificationActor/PushNotificationActor")
+            NotificationsActorSystem.ActorSelection("user/NotificationActor/PushNotificationActor")
                 .Tell(new NotificationMessage("akin@armut.com", "New Job"));
             Console.ReadKey();
 
