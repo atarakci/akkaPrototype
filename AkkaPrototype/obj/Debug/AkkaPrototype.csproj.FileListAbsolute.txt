@@ -1,0 +1,24 @@
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\AkkaPrototype.exe.config
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\AkkaPrototype.exe
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\AkkaPrototype.pdb
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.DI.AutoFac.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.DI.Core.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.Logger.NLog.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Autofac.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\NLog.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.xml
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.DI.AutoFac.xml
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.DI.Core.xml
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.Logger.NLog.xml
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Autofac.xml
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\NLog.xml
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\obj\Debug\AkkaPrototype.csprojResolveAssemblyReference.cache
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\obj\Debug\AkkaPrototype.exe
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\obj\Debug\AkkaPrototype.pdb
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\NLog.config
+C:\Users\tarakci\YandexDisk\Software\AkkaPrototype\AkkaPrototype\bin\Debug\AkkaPrototype.exe.config
+C:\Users\tarakci\YandexDisk\Software\AkkaPrototype\AkkaPrototype\obj\Debug\AkkaPrototype.exe
+C:\Users\tarakci\YandexDisk\Software\AkkaPrototype\AkkaPrototype\obj\Debug\AkkaPrototype.pdb
