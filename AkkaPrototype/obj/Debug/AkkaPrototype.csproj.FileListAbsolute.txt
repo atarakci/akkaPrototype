@@ -22,3 +22,10 @@ C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototy
 C:\Users\tarakci\YandexDisk\Software\AkkaPrototype\AkkaPrototype\bin\Debug\AkkaPrototype.exe.config
 C:\Users\tarakci\YandexDisk\Software\AkkaPrototype\AkkaPrototype\obj\Debug\AkkaPrototype.exe
 C:\Users\tarakci\YandexDisk\Software\AkkaPrototype\AkkaPrototype\obj\Debug\AkkaPrototype.pdb
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.Remote.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Google.ProtocolBuffers.Serialization.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Helios.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Akka.Remote.xml
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Google.ProtocolBuffers.xml
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\AkkaPrototype\bin\Debug\Google.ProtocolBuffers.Serialization.xml
