@@ -2,6 +2,7 @@
 using Akka.Event;
 using Akka.DI.Core;
 using System;
+using Akka.Routing;
 
 namespace Notifications.Common.Actor
 {
@@ -11,7 +12,8 @@ namespace Notifications.Common.Actor
 
         public NotificationActor()
         {
-            Context.ActorOf(Context.DI().Props<PushNotificationActor>(), "PushNotificationActor");
+            //Context.ActorOf(Context.DI().Props<PushNotificationActor>(), "PushNotificationActor");
+            Context.ActorOf(Context.DI().Props<PushNotificationActor>().WithRouter(FromConfig.Instance), "PushNotificationActor");
         }
 
         protected override SupervisorStrategy SupervisorStrategy()
