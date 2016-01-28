@@ -47,11 +47,11 @@ namespace Notifications.Common.Actor
 
             _analyzer.CountNotifications();
 
-            return new ResultMessage()
+            return await Task.FromResult(new ResultMessage()
             {
                 Result = "done",
                 CreateDate = DateTime.Now
-            };
+            });
         }
 
         protected override void PreStart()
