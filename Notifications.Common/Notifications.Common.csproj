@@ -73,6 +73,7 @@
     <Compile Include="Common\INotificationAnalyzer.cs" />
     <Compile Include="Common\NotificationAnalyzer.cs" />
     <Compile Include="Message\NotificationMessage.cs" />
+    <Compile Include="Message\ResultMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

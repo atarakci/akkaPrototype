@@ -30,9 +30,11 @@ namespace AkkaPrototype
 
             Console.ReadKey();
             Console.WriteLine("Sending notification");
+
             //pushNotificationActorRef.Tell(new NotificationMessage("akin@armut.com", "New Job"));
             NotificationsActorSystem.ActorSelection("user/NotificationActor/PushNotificationActor")
                 .Tell(new NotificationMessage("akin@armut.com", "New Job"));
+
             Console.ReadKey();
 
             NotificationsActorSystem.Terminate();

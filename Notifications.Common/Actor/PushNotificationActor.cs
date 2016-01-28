@@ -4,6 +4,7 @@ using Notifications.Common.Common;
 using Notifications.Common.Message;
 using System;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Notifications.Common.Actor
 {
@@ -18,10 +19,25 @@ namespace Notifications.Common.Actor
 
             _analyzer = analyzer;
 
-            Receive<NotificationMessage>(message => WriteToFile(message));
+            Receive<NotificationMessage>(message => HandleMessage(message));
+            Receive<ResultMessage>(message => HandleResultMessage(message));
         }
 
-        public void WriteToFile(NotificationMessage message)
+        public void HandleMessage(NotificationMessage message)
+        {
+            WriteToFile(message).PipeTo(Self, Sender);
+        }
+
+        public void HandleResultMessage(ResultMessage message)
+        {
+            Sender.Tell(new ResultMessage()
+            {
+                Result = message.Result,
+                CreateDate = message.CreateDate
+            });
+        }
+
+        public async Task<ResultMessage> WriteToFile(NotificationMessage message)
         {
             StreamWriter file = new StreamWriter(@"C:\Users\tarakci\Downloads\AWS\notifications.txt", true);
             file.WriteLine($"User ID: {message.UserId} - Message: {message.Notification}");
@@ -30,6 +46,12 @@ namespace Notifications.Common.Actor
             _logger.Info($"Notification has sent to -> {message.UserId}");
 
             _analyzer.CountNotifications();
+
+            return new ResultMessage()
+            {
+                Result = "done",
+                CreateDate = DateTime.Now
+            };
         }
 
         protected override void PreStart()
