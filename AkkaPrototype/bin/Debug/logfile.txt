@@ -415,3 +415,260 @@
 2016-01-28 15:53:26.2318|INFO|Notifications.Common.Actor.PushNotificationActor|Notification has sent to -> akin@armut.com
 2016-01-28 15:54:10.3167|INFO|Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef|Message ResultMessage from akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b to akka://NotificationsActorSystem/deadLetters was not delivered. 1 dead letters encountered.
 2016-01-28 15:54:12.8655|DEBUG|Akka.Actor.Internal.ActorSystemImpl|System shutdown initiated
+2016-02-16 11:46:25.1426|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Info
+2016-02-16 11:46:25.1616|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Warning
+2016-02-16 11:46:25.1616|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Error
+2016-02-16 11:46:25.1616|DEBUG|Akka.Event.EventStream|Logger log1-NLogLogger [NLogLogger] started
+2016-02-16 11:46:25.1616|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/UnhandledMessageForwarder] to channel Akka.Event.UnhandledMessage
+2016-02-16 11:46:25.1616|DEBUG|Akka.Event.EventStream|StandardOutLogger being removed
+2016-02-16 11:46:25.1616|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/UnhandledMessageForwarder
+2016-02-16 11:46:25.1676|DEBUG|Akka.Event.LoggingBus+UnhandledMessageForwarder|Started (Akka.Event.LoggingBus+UnhandledMessageForwarder)
+2016-02-16 11:46:25.1676|DEBUG|Akka.Event.EventStream|unsubscribing [akka://all-systems/] from all channels
+2016-02-16 11:46:25.1676|DEBUG|Akka.Event.EventStream|Default Loggers started
+2016-02-16 11:46:25.1676|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remoting-terminator
+2016-02-16 11:46:25.1676|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/transports
+2016-02-16 11:46:25.1676|DEBUG|Akka.Remote.TransportSupervisor|Started (Akka.Remote.TransportSupervisor)
+2016-02-16 11:46:25.1676|INFO|Akka.Event.DummyClassForStringSources|Starting remoting
+2016-02-16 11:46:25.1676|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/endpointManager
+2016-02-16 11:46:25.1966|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|Started (Akka.Remote.RemoteActorRefProvider+RemotingTerminator)
+2016-02-16 11:46:25.2066|DEBUG|Akka.Event.DummyClassForStringSources|Starting prune timer for endpoint manager...
+2016-02-16 11:46:25.2066|DEBUG|Akka.Remote.EndpointManager|Started (Akka.Remote.EndpointManager)
+2016-02-16 11:46:25.2066|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|now watched by [akka://NotificationsActorSystem/system]
+2016-02-16 11:46:25.2066|DEBUG|Akka.Remote.TransportSupervisor|now supervising akka://NotificationsActorSystem/system/transports/akkaprotocolmanager.tcp.0
+2016-02-16 11:46:25.2066|DEBUG|Akka.Remote.Transport.AkkaProtocolManager|Started (Akka.Remote.Transport.AkkaProtocolManager)
+2016-02-16 11:46:25.2066|INFO|Akka.Event.DummyClassForStringSources|Remoting started; listening on addresses : [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 11:46:25.2066|INFO|Akka.Event.DummyClassForStringSources|Remoting now listens on addresses: [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 11:46:25.2066|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-watcher
+2016-02-16 11:46:25.2066|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-deployment-watcher
+2016-02-16 11:46:25.2066|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/deadLetterListener
+2016-02-16 11:46:25.2066|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/EventStreamUnsubscriber-1
+2016-02-16 11:46:25.2066|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/deadLetterListener] to channel Akka.Event.DeadLetter
+2016-02-16 11:46:25.2146|DEBUG|Akka.Event.DeadLetterListener|Started (Akka.Event.DeadLetterListener)
+2016-02-16 11:46:25.2146|DEBUG|Akka.Event.EventStreamUnsubscriber|registering unsubscriber with Akka.Event.EventStream
+2016-02-16 11:46:25.2146|DEBUG|Akka.Event.EventStreamUnsubscriber|Started (Akka.Event.EventStreamUnsubscriber)
+2016-02-16 11:46:25.2146|DEBUG|Akka.Actor.GuardianActor|now supervising akka://NotificationsActorSystem/user/NotificationActor
+2016-02-16 11:46:25.2146|DEBUG|Notifications.Common.Actor.NotificationActor|Started (Notifications.Common.Actor.NotificationActor)
+2016-02-16 11:46:25.2146|DEBUG|Notifications.Common.Actor.NotificationActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor
+2016-02-16 11:46:25.2146|DEBUG|Akka.Remote.RemoteDeploymentWatcher|Started (Akka.Remote.RemoteDeploymentWatcher)
+2016-02-16 11:46:25.2146|DEBUG|Akka.Remote.RemoteWatcher|Started (Akka.Remote.RemoteWatcher)
+2016-02-16 11:46:25.2146|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:46:25.2146|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:46:25.2146|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:46:25.2296|DEBUG|Akka.Routing.ResizablePoolActor|Started (Akka.Routing.ResizablePoolActor)
+2016-02-16 11:46:25.2296|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b
+2016-02-16 11:46:25.2296|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$c
+2016-02-16 11:46:25.2296|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$d
+2016-02-16 11:46:25.2296|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:46:25.2296|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:46:25.2296|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:46:25.2296|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:46:25.2296|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:46:25.2296|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:46:28.4524|INFO|Notifications.Common.Actor.PushNotificationActor|Notification has sent to -> akin@armut.com
+2016-02-16 11:46:28.4524|INFO|Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef|Message ResultMessage from akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b to akka://NotificationsActorSystem/deadLetters was not delivered. 1 dead letters encountered.
+2016-02-16 11:46:30.9316|DEBUG|Akka.Actor.Internal.ActorSystemImpl|System shutdown initiated
+2016-02-16 11:46:55.3548|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Info
+2016-02-16 11:47:05.5358|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Warning
+2016-02-16 11:47:05.5358|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Error
+2016-02-16 11:47:05.5358|DEBUG|Akka.Event.EventStream|Logger log1-NLogLogger [NLogLogger] started
+2016-02-16 11:47:05.5358|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/UnhandledMessageForwarder] to channel Akka.Event.UnhandledMessage
+2016-02-16 11:47:05.5358|DEBUG|Akka.Event.EventStream|StandardOutLogger being removed
+2016-02-16 11:47:05.5358|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/UnhandledMessageForwarder
+2016-02-16 11:47:06.2564|DEBUG|Akka.Event.LoggingBus+UnhandledMessageForwarder|Started (Akka.Event.LoggingBus+UnhandledMessageForwarder)
+2016-02-16 11:47:06.2564|DEBUG|Akka.Event.EventStream|unsubscribing [akka://all-systems/] from all channels
+2016-02-16 11:47:06.2624|DEBUG|Akka.Event.EventStream|Default Loggers started
+2016-02-16 11:47:06.2624|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remoting-terminator
+2016-02-16 11:47:06.2624|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/transports
+2016-02-16 11:47:06.2624|DEBUG|Akka.Remote.TransportSupervisor|Started (Akka.Remote.TransportSupervisor)
+2016-02-16 11:47:06.2624|INFO|Akka.Event.DummyClassForStringSources|Starting remoting
+2016-02-16 11:47:06.2624|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/endpointManager
+2016-02-16 11:47:06.2624|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|Started (Akka.Remote.RemoteActorRefProvider+RemotingTerminator)
+2016-02-16 11:47:06.2624|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|now watched by [akka://NotificationsActorSystem/system]
+2016-02-16 11:47:06.2624|DEBUG|Akka.Event.DummyClassForStringSources|Starting prune timer for endpoint manager...
+2016-02-16 11:47:06.2774|DEBUG|Akka.Remote.EndpointManager|Started (Akka.Remote.EndpointManager)
+2016-02-16 11:47:06.2774|DEBUG|Akka.Remote.TransportSupervisor|now supervising akka://NotificationsActorSystem/system/transports/akkaprotocolmanager.tcp.0
+2016-02-16 11:47:06.2774|DEBUG|Akka.Remote.Transport.AkkaProtocolManager|Started (Akka.Remote.Transport.AkkaProtocolManager)
+2016-02-16 11:47:06.2774|INFO|Akka.Event.DummyClassForStringSources|Remoting started; listening on addresses : [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 11:47:06.2774|INFO|Akka.Event.DummyClassForStringSources|Remoting now listens on addresses: [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 11:47:06.2774|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-watcher
+2016-02-16 11:47:06.2774|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-deployment-watcher
+2016-02-16 11:47:06.2774|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/deadLetterListener
+2016-02-16 11:47:06.2774|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/EventStreamUnsubscriber-1
+2016-02-16 11:47:06.2774|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/deadLetterListener] to channel Akka.Event.DeadLetter
+2016-02-16 11:47:06.2774|DEBUG|Akka.Event.DeadLetterListener|Started (Akka.Event.DeadLetterListener)
+2016-02-16 11:47:06.2774|DEBUG|Akka.Event.EventStreamUnsubscriber|registering unsubscriber with Akka.Event.EventStream
+2016-02-16 11:47:06.2774|DEBUG|Akka.Event.EventStreamUnsubscriber|Started (Akka.Event.EventStreamUnsubscriber)
+2016-02-16 11:47:06.2774|DEBUG|Akka.Remote.RemoteDeploymentWatcher|Started (Akka.Remote.RemoteDeploymentWatcher)
+2016-02-16 11:47:06.2924|DEBUG|Akka.Remote.RemoteWatcher|Started (Akka.Remote.RemoteWatcher)
+2016-02-16 11:47:06.2924|DEBUG|Akka.Actor.GuardianActor|now supervising akka://NotificationsActorSystem/user/NotificationActor
+2016-02-16 11:47:06.2924|DEBUG|Notifications.Common.Actor.NotificationActor|Started (Notifications.Common.Actor.NotificationActor)
+2016-02-16 11:47:06.2924|DEBUG|Notifications.Common.Actor.NotificationActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor
+2016-02-16 11:47:06.2924|DEBUG|Akka.Routing.ResizablePoolActor|Started (Akka.Routing.ResizablePoolActor)
+2016-02-16 11:47:06.2924|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b
+2016-02-16 11:47:06.2924|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$c
+2016-02-16 11:47:06.2924|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$d
+2016-02-16 11:47:06.2924|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:47:06.2924|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:47:06.2924|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:47:06.2924|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:47:06.2924|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:47:06.2924|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:47:06.2924|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:47:06.2924|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:47:06.2924|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:47:21.3219|INFO|Notifications.Common.Actor.PushNotificationActor|Notification has sent to -> akin@armut.com
+2016-02-16 11:47:21.3279|INFO|Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef|Message ResultMessage from akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b to akka://NotificationsActorSystem/deadLetters was not delivered. 1 dead letters encountered.
+2016-02-16 11:47:30.0223|DEBUG|Akka.Actor.Internal.ActorSystemImpl|System shutdown initiated
+2016-02-16 11:48:20.9489|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Info
+2016-02-16 11:48:20.9659|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Warning
+2016-02-16 11:48:20.9659|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Error
+2016-02-16 11:48:20.9659|DEBUG|Akka.Event.EventStream|Logger log1-NLogLogger [NLogLogger] started
+2016-02-16 11:48:20.9659|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/UnhandledMessageForwarder] to channel Akka.Event.UnhandledMessage
+2016-02-16 11:48:20.9659|DEBUG|Akka.Event.EventStream|StandardOutLogger being removed
+2016-02-16 11:48:20.9659|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/UnhandledMessageForwarder
+2016-02-16 11:48:20.9659|DEBUG|Akka.Event.LoggingBus+UnhandledMessageForwarder|Started (Akka.Event.LoggingBus+UnhandledMessageForwarder)
+2016-02-16 11:48:20.9659|DEBUG|Akka.Event.EventStream|unsubscribing [akka://all-systems/] from all channels
+2016-02-16 11:48:20.9659|DEBUG|Akka.Event.EventStream|Default Loggers started
+2016-02-16 11:48:20.9659|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remoting-terminator
+2016-02-16 11:48:20.9659|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/transports
+2016-02-16 11:48:20.9659|DEBUG|Akka.Remote.TransportSupervisor|Started (Akka.Remote.TransportSupervisor)
+2016-02-16 11:48:20.9659|INFO|Akka.Event.DummyClassForStringSources|Starting remoting
+2016-02-16 11:48:20.9659|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|Started (Akka.Remote.RemoteActorRefProvider+RemotingTerminator)
+2016-02-16 11:48:20.9659|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/endpointManager
+2016-02-16 11:48:20.9799|DEBUG|Akka.Event.DummyClassForStringSources|Starting prune timer for endpoint manager...
+2016-02-16 11:48:20.9799|DEBUG|Akka.Remote.EndpointManager|Started (Akka.Remote.EndpointManager)
+2016-02-16 11:48:20.9799|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|now watched by [akka://NotificationsActorSystem/system]
+2016-02-16 11:48:20.9799|DEBUG|Akka.Remote.TransportSupervisor|now supervising akka://NotificationsActorSystem/system/transports/akkaprotocolmanager.tcp.0
+2016-02-16 11:48:20.9799|DEBUG|Akka.Remote.Transport.AkkaProtocolManager|Started (Akka.Remote.Transport.AkkaProtocolManager)
+2016-02-16 11:48:20.9799|INFO|Akka.Event.DummyClassForStringSources|Remoting started; listening on addresses : [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 11:48:20.9799|INFO|Akka.Event.DummyClassForStringSources|Remoting now listens on addresses: [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 11:48:20.9979|DEBUG|Akka.Remote.RemoteDeploymentWatcher|Started (Akka.Remote.RemoteDeploymentWatcher)
+2016-02-16 11:48:20.9979|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-watcher
+2016-02-16 11:48:20.9979|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-deployment-watcher
+2016-02-16 11:48:20.9979|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/deadLetterListener
+2016-02-16 11:48:20.9979|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/EventStreamUnsubscriber-1
+2016-02-16 11:48:20.9979|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/deadLetterListener] to channel Akka.Event.DeadLetter
+2016-02-16 11:48:20.9979|DEBUG|Akka.Event.DeadLetterListener|Started (Akka.Event.DeadLetterListener)
+2016-02-16 11:48:23.6213|DEBUG|Akka.Event.EventStreamUnsubscriber|registering unsubscriber with Akka.Event.EventStream
+2016-02-16 11:48:23.6213|DEBUG|Akka.Event.EventStreamUnsubscriber|Started (Akka.Event.EventStreamUnsubscriber)
+2016-02-16 11:48:28.5976|DEBUG|Akka.Remote.RemoteWatcher|Started (Akka.Remote.RemoteWatcher)
+2016-02-16 11:48:28.5976|DEBUG|Akka.Actor.GuardianActor|now supervising akka://NotificationsActorSystem/user/NotificationActor
+2016-02-16 11:48:30.2316|DEBUG|Notifications.Common.Actor.NotificationActor|Started (Notifications.Common.Actor.NotificationActor)
+2016-02-16 11:48:30.2316|DEBUG|Notifications.Common.Actor.NotificationActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor
+2016-02-16 11:48:30.2316|DEBUG|Akka.Routing.ResizablePoolActor|Started (Akka.Routing.ResizablePoolActor)
+2016-02-16 11:48:30.2316|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b
+2016-02-16 11:48:30.2316|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$c
+2016-02-16 11:48:30.2316|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$d
+2016-02-16 11:48:30.2486|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:48:30.2486|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:48:30.2486|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:48:30.2486|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:48:30.2486|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:48:30.2486|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:48:30.2486|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:48:30.2486|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:48:30.2486|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:48:58.2510|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Info
+2016-02-16 11:48:58.2690|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Warning
+2016-02-16 11:48:58.2690|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Error
+2016-02-16 11:48:58.2690|DEBUG|Akka.Event.EventStream|Logger log1-NLogLogger [NLogLogger] started
+2016-02-16 11:48:58.2690|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/UnhandledMessageForwarder] to channel Akka.Event.UnhandledMessage
+2016-02-16 11:48:58.2780|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/UnhandledMessageForwarder
+2016-02-16 11:48:58.2780|DEBUG|Akka.Event.EventStream|StandardOutLogger being removed
+2016-02-16 11:48:58.2780|DEBUG|Akka.Event.LoggingBus+UnhandledMessageForwarder|Started (Akka.Event.LoggingBus+UnhandledMessageForwarder)
+2016-02-16 11:48:58.2780|DEBUG|Akka.Event.EventStream|unsubscribing [akka://all-systems/] from all channels
+2016-02-16 11:48:58.2780|DEBUG|Akka.Event.EventStream|Default Loggers started
+2016-02-16 11:48:58.2780|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remoting-terminator
+2016-02-16 11:48:58.2780|INFO|Akka.Event.DummyClassForStringSources|Starting remoting
+2016-02-16 11:48:58.2780|DEBUG|Akka.Remote.TransportSupervisor|Started (Akka.Remote.TransportSupervisor)
+2016-02-16 11:48:58.2780|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/transports
+2016-02-16 11:48:58.2780|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/endpointManager
+2016-02-16 11:48:58.2780|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|Started (Akka.Remote.RemoteActorRefProvider+RemotingTerminator)
+2016-02-16 11:48:58.2780|DEBUG|Akka.Event.DummyClassForStringSources|Starting prune timer for endpoint manager...
+2016-02-16 11:48:58.2780|DEBUG|Akka.Remote.EndpointManager|Started (Akka.Remote.EndpointManager)
+2016-02-16 11:48:58.2780|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|now watched by [akka://NotificationsActorSystem/system]
+2016-02-16 11:48:58.2920|DEBUG|Akka.Remote.TransportSupervisor|now supervising akka://NotificationsActorSystem/system/transports/akkaprotocolmanager.tcp.0
+2016-02-16 11:48:58.2920|DEBUG|Akka.Remote.Transport.AkkaProtocolManager|Started (Akka.Remote.Transport.AkkaProtocolManager)
+2016-02-16 11:48:58.2920|INFO|Akka.Event.DummyClassForStringSources|Remoting started; listening on addresses : [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 11:48:58.2920|INFO|Akka.Event.DummyClassForStringSources|Remoting now listens on addresses: [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 11:49:00.8806|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-watcher
+2016-02-16 11:49:00.8806|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-deployment-watcher
+2016-02-16 11:49:03.7445|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/deadLetterListener
+2016-02-16 11:49:03.7515|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/EventStreamUnsubscriber-1
+2016-02-16 11:49:03.7515|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/deadLetterListener] to channel Akka.Event.DeadLetter
+2016-02-16 11:49:03.7625|DEBUG|Akka.Event.DeadLetterListener|Started (Akka.Event.DeadLetterListener)
+2016-02-16 11:49:03.7625|DEBUG|Akka.Event.EventStreamUnsubscriber|registering unsubscriber with Akka.Event.EventStream
+2016-02-16 11:49:03.7625|DEBUG|Akka.Event.EventStreamUnsubscriber|Started (Akka.Event.EventStreamUnsubscriber)
+2016-02-16 11:49:03.7625|DEBUG|Akka.Remote.RemoteDeploymentWatcher|Started (Akka.Remote.RemoteDeploymentWatcher)
+2016-02-16 11:49:03.7625|DEBUG|Akka.Actor.GuardianActor|now supervising akka://NotificationsActorSystem/user/NotificationActor
+2016-02-16 11:49:03.7856|DEBUG|Akka.Remote.RemoteWatcher|Started (Akka.Remote.RemoteWatcher)
+2016-02-16 11:49:04.3146|DEBUG|Notifications.Common.Actor.NotificationActor|Started (Notifications.Common.Actor.NotificationActor)
+2016-02-16 11:49:04.3146|DEBUG|Notifications.Common.Actor.NotificationActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor
+2016-02-16 11:49:04.3146|DEBUG|Akka.Routing.ResizablePoolActor|Started (Akka.Routing.ResizablePoolActor)
+2016-02-16 11:49:04.3146|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b
+2016-02-16 11:49:04.3146|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$c
+2016-02-16 11:49:04.3146|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$d
+2016-02-16 11:49:04.3327|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:49:04.3327|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:49:04.3327|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 11:49:04.3327|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:49:04.3327|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:49:04.3327|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:49:04.3327|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:49:04.3327|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 11:49:04.3327|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 11:49:16.8232|INFO|Notifications.Common.Actor.PushNotificationActor|Notification has sent to -> akin@armut.com
+2016-02-16 11:49:16.8232|INFO|Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef|Message ResultMessage from akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b to akka://NotificationsActorSystem/deadLetters was not delivered. 1 dead letters encountered.
+2016-02-16 11:49:22.7581|DEBUG|Akka.Actor.Internal.ActorSystemImpl|System shutdown initiated
+2016-02-16 17:59:41.4773|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Info
+2016-02-16 17:59:41.5020|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Warning
+2016-02-16 17:59:41.5020|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/log1-NLogLogger] to channel Akka.Event.Error
+2016-02-16 17:59:41.5020|DEBUG|Akka.Event.EventStream|Logger log1-NLogLogger [NLogLogger] started
+2016-02-16 17:59:42.5458|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/UnhandledMessageForwarder
+2016-02-16 17:59:42.5458|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/UnhandledMessageForwarder] to channel Akka.Event.UnhandledMessage
+2016-02-16 17:59:43.1752|DEBUG|Akka.Event.EventStream|StandardOutLogger being removed
+2016-02-16 17:59:43.1752|DEBUG|Akka.Event.LoggingBus+UnhandledMessageForwarder|Started (Akka.Event.LoggingBus+UnhandledMessageForwarder)
+2016-02-16 17:59:43.1752|DEBUG|Akka.Event.EventStream|unsubscribing [akka://all-systems/] from all channels
+2016-02-16 17:59:43.1752|DEBUG|Akka.Event.EventStream|Default Loggers started
+2016-02-16 17:59:43.1833|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remoting-terminator
+2016-02-16 17:59:43.1833|DEBUG|Akka.Remote.TransportSupervisor|Started (Akka.Remote.TransportSupervisor)
+2016-02-16 17:59:43.1833|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/transports
+2016-02-16 17:59:43.1833|INFO|Akka.Event.DummyClassForStringSources|Starting remoting
+2016-02-16 17:59:43.1993|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/endpointManager
+2016-02-16 17:59:43.1993|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|Started (Akka.Remote.RemoteActorRefProvider+RemotingTerminator)
+2016-02-16 17:59:43.1993|DEBUG|Akka.Event.DummyClassForStringSources|Starting prune timer for endpoint manager...
+2016-02-16 17:59:43.1993|DEBUG|Akka.Remote.EndpointManager|Started (Akka.Remote.EndpointManager)
+2016-02-16 17:59:43.1993|DEBUG|Akka.Remote.RemoteActorRefProvider+RemotingTerminator|now watched by [akka://NotificationsActorSystem/system]
+2016-02-16 17:59:43.1993|DEBUG|Akka.Remote.TransportSupervisor|now supervising akka://NotificationsActorSystem/system/transports/akkaprotocolmanager.tcp.0
+2016-02-16 17:59:43.1993|DEBUG|Akka.Remote.Transport.AkkaProtocolManager|Started (Akka.Remote.Transport.AkkaProtocolManager)
+2016-02-16 17:59:43.1993|INFO|Akka.Event.DummyClassForStringSources|Remoting started; listening on addresses : [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 17:59:43.1993|INFO|Akka.Event.DummyClassForStringSources|Remoting now listens on addresses: [akka.tcp://NotificationsActorSystem@127.0.0.1:8091]
+2016-02-16 17:59:43.1993|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-watcher
+2016-02-16 17:59:43.1993|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/remote-deployment-watcher
+2016-02-16 17:59:43.1993|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/deadLetterListener
+2016-02-16 17:59:43.1993|DEBUG|Akka.Event.EventStream|subscribing [akka://NotificationsActorSystem/system/deadLetterListener] to channel Akka.Event.DeadLetter
+2016-02-16 17:59:43.1993|DEBUG|Akka.Event.DeadLetterListener|Started (Akka.Event.DeadLetterListener)
+2016-02-16 17:59:43.1993|DEBUG|Akka.Actor.SystemGuardianActor|now supervising akka://NotificationsActorSystem/system/EventStreamUnsubscriber-1
+2016-02-16 17:59:43.1993|DEBUG|Akka.Remote.RemoteDeploymentWatcher|Started (Akka.Remote.RemoteDeploymentWatcher)
+2016-02-16 17:59:43.1993|DEBUG|Akka.Event.EventStreamUnsubscriber|registering unsubscriber with Akka.Event.EventStream
+2016-02-16 17:59:43.1993|DEBUG|Akka.Remote.RemoteWatcher|Started (Akka.Remote.RemoteWatcher)
+2016-02-16 17:59:43.1993|DEBUG|Akka.Event.EventStreamUnsubscriber|Started (Akka.Event.EventStreamUnsubscriber)
+2016-02-16 17:59:43.2153|DEBUG|Akka.Actor.GuardianActor|now supervising akka://NotificationsActorSystem/user/NotificationActor
+2016-02-16 17:59:43.2153|DEBUG|Notifications.Common.Actor.NotificationActor|Started (Notifications.Common.Actor.NotificationActor)
+2016-02-16 17:59:43.2153|DEBUG|Notifications.Common.Actor.NotificationActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor
+2016-02-16 17:59:43.2153|DEBUG|Akka.Routing.ResizablePoolActor|Started (Akka.Routing.ResizablePoolActor)
+2016-02-16 17:59:43.2153|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b
+2016-02-16 17:59:43.2153|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$c
+2016-02-16 17:59:43.2153|DEBUG|Akka.Routing.ResizablePoolActor|now supervising akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$d
+2016-02-16 17:59:43.2153|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 17:59:43.2153|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 17:59:43.2153|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 17:59:43.2153|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 17:59:43.2153|INFO|Notifications.Common.Actor.PushNotificationActor|Pushnotification Actor pre start called
+2016-02-16 17:59:43.2153|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 17:59:43.2153|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 17:59:43.2153|DEBUG|Notifications.Common.Actor.PushNotificationActor|Started (Notifications.Common.Actor.PushNotificationActor)
+2016-02-16 17:59:43.2153|DEBUG|Notifications.Common.Actor.PushNotificationActor|now watched by [akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor]
+2016-02-16 18:00:11.8668|INFO|Notifications.Common.Actor.PushNotificationActor|Notification has sent to -> akin@armut.com
+2016-02-16 18:00:31.5195|DEBUG|Akka.Actor.LocalActorRef|Unhandled message from akka://NotificationsActorSystem/user/NotificationActor/PushNotificationActor/$b : Notifications.Common.Message.ResultMessage
+2016-02-16 18:00:37.0220|DEBUG|Akka.Actor.Internal.ActorSystemImpl|System shutdown initiated

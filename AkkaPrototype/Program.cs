@@ -31,9 +31,12 @@ namespace AkkaPrototype
             Console.ReadKey();
             Console.WriteLine("Sending notification");
 
-            //pushNotificationActorRef.Tell(new NotificationMessage("akin@armut.com", "New Job"));
-            NotificationsActorSystem.ActorSelection("user/NotificationActor/PushNotificationActor")
-                .Tell(new NotificationMessage("akin@armut.com", "New Job"));
+            pushNotificationActorRef.Tell(new NotificationMessage("akin@armut.com", "New Job"));
+
+            //This is for reaching from lower level actor to high level actor
+
+            //NotificationsActorSystem.ActorSelection("user/NotificationActor/PushNotificationActor")
+            //    .Tell(new NotificationMessage("akin@armut.com", "New Job"));
 
             Console.ReadKey();
 
