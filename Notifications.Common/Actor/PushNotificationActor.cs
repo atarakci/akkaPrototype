@@ -39,7 +39,7 @@ namespace Notifications.Common.Actor
 
         public async Task<ResultMessage> WriteToFile(NotificationMessage message)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\tarakci\Downloads\AWS\notifications.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\tarakci\Downloads\akkaLog\notifications.txt", true);
             file.WriteLine($"User ID: {message.UserId} - Message: {message.Notification}");
             file.Close();
 

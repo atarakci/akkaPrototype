@@ -17,3 +17,5 @@ C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\Notificatio
 C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\Notifications.Common\obj\Debug\Notifications.Common.csprojResolveAssemblyReference.cache
 C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\Notifications.Common\obj\Debug\Notifications.Common.dll
 C:\Users\tarakci\Documents\Visual Studio 2015\Projects\AkkaPrototype\Notifications.Common\obj\Debug\Notifications.Common.pdb
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\akkaPrototype\Notifications.Common\bin\Debug\NLog.dll
+C:\Users\tarakci\Documents\Visual Studio 2015\Projects\akkaPrototype\Notifications.Common\bin\Debug\NLog.xml

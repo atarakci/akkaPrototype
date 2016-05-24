@@ -30,6 +30,8 @@ namespace Notifications.Common.Actor
         {
             return new OneForOneStrategy
             (
+                5, // maximum number of retries
+                TimeSpan.FromSeconds(30), // within time range
                 exception =>
                 {
                     if (exception is ArithmeticException)
@@ -39,6 +41,10 @@ namespace Notifications.Common.Actor
                     if (exception is DuplicateWaitObjectException)
                     {
                         return Directive.Resume;
+                    }
+                    if (exception is NotSupportedException)
+                    {
+                        return Directive.Stop;
                     }
 
                     return Directive.Escalate;
